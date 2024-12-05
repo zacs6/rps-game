@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+  color: #fff;
+  background-color: #242424;
+  font-family: 'Silkscreen', Arial, sans-serif;
+  user-select: none;
+}
+
+.game-title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  transition: 500ms;
+}
+
+.game-title:hover {
+  color: #339af0;
+  cursor: default;
+  text-shadow: #339af0 1px 0 5px;
+}
+
+.game-record {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 35px;
+  /* background-color: #2e2e2e;
+  border-color: #424242;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  height: 110px;
+  width: 500px; */
+}
+
+.game-result {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 35px;
+  background-color: #2e2e2e;
+  border-color: #424242;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  height: 110px;
+  width: 500px;
+}
+
+.choices-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  button {
+    background-color: #2e2e2e;
+    border-color: #424242;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+    font-size: 84px;
+    transition: 500ms;
+  }
+
+  button:hover {
+    background-color: #3b3b3b;
+    cursor: pointer;
+  }
+}
