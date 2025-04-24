@@ -8,4 +8,4 @@ A classic Rock, Paper, Scissors game built with HTML, CSS, and JavaScript. Play 
 - Responsive design for easy gameplay on various devices.
 
 ## Demo
-Play it live on [GitHub Pages](https://zacms16.github.io/rps-game/).
+Play it live on [GitHub Pages](https://zacs6.github.io/rps-game/).
